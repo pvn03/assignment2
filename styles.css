@@ -1,0 +1,33 @@
+/*
+*  Name: Pavan K. Kottapalli
+*  Class: CS 1520 - PROGRAMMING LANGUAGES FOR WEB APPLICATIONS
+*  Assignment: Assignment 2
+*/
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+#addsum {
+    text-align: left;
+    color: purple;
+}
+
+p {
+    color: red;
+    text-align: center;
+}
+
+#p02 {
+    text-align: left;
+    color: green;
+}
+
+#p01 {
+    text-align: left;
+    color: orange;
+}
