@@ -1,0 +1,61 @@
+<!--
+ Name: Pavan K. Kottapalli
+ Class: CS 1520 - PROGRAMMING LANGUAGES FOR WEB APPLICATIONS
+ Assignment: Assignment 2
+-->
+
+
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> Welcome to My Webpage</title>
+		<link rel="stylesheet" href="./CSS/styles.css" >
+	</head>
+
+	<body>
+		
+		My name is <strong>Pavan K. Kottapalli</strong>.
+		
+		<p id="p02">
+			Welcome to my adder site! :) 
+		</p>
+
+		<!-- Put a website in the quotes to something-->
+		This link here is my very first attempt at making a<a href ="http://pitt.edu/~pkk6/"> website</a>!
+
+		<!-- Use div to make section of texts similar-->
+		<div style="color:#0000FF">
+			<h3> The purpose of this website is to allow the user to enter two numbers and find out the sum of the two. </h3>
+		</div>
+
+		<!-- Use span and p functions -->
+		<p>My Program also checks for certain errors</span>! :o
+		
+		<!-- <a href="http://"></a>> -->
+
+		<!-- Unordered List & multiple pages. -->
+		<p id="p01">Possible user errors, try them out!</p>
+		<ul>
+			<li> Not entering anything in both inputs </li>
+			<li> Leaving either the first or second input field empty </li>
+		</ul>
+
+		<!-- Ordered List -->
+		<ol>
+			<li> Not entering a valid number in both inputs(Ex. words, letters, mix of letters and numbers)  </li>
+			<li> Not entering a valid number in either input. </li>
+		</ol>
+
+		<form name = "myForm">
+  			<h4> Add Numbers: </h4>
+  				<input type="text" name="numone"> + <input type="text" name="numtwo"><br><br>
+		</form>
+
+		<input type="button" value="Calculate" onclick="add()">
+		<script src ="./JS/calculations.js"></script>
+
+		<p id = "addsum"></p>
+
+	</body>
+
+</html>
